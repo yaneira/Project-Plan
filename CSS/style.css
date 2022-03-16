@@ -1,0 +1,123 @@
+/*
+Name: Lizeth Hernandez
+Date: March 5 2022
+File Name: style.css*/
+
+/*CSS Resest*/
+body, header,nav,main, footer,img, h1,h2, h3, h4{
+  margin:0;
+  padding: 0;
+  border:0;
+}
+
+/*Style Rule for body and images*/
+body{
+  background-color:#ffffff;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+/*Style Rule fro navigation area*/
+nav{
+  background-color:#3F77BF;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li{
+  display:inline-block;
+  font-size: 1.5em;
+  font-family: Geneva,Arial,sans-serif;
+  font-weight: bold;
+    color:#ffffff;
+}
+
+nav li a{
+  display:block;
+  color:#F2B138;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-decoration: none;
+}
+
+/*Style rule for main content*/
+main{
+  padding: 2%;
+  font-family: Verdana,Arial,sans-serif;
+}
+
+main p{
+  font-size: 1.25em;
+}
+
+main h3{
+  padding-top: 2%;
+}
+
+main ul{
+  list-style: square;
+}
+
+.link{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.action{
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+  display: block;
+}
+
+#welcome{
+  text-align: center;
+}
+
+#Origin, #Family, #Aspiration{
+  width:29%;
+  height: 30%;
+  float: left;
+  margin: 0 2%;
+}
+
+.center{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+/*style rule for footer content*/
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  text-align: center;
+  font-size: 0.85em;
+  background-color:#D95204;
+  color: #f6eee4;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.footer{
+  color: #ffffff;
+  text-decoration: none;
+}
